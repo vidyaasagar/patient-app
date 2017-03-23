@@ -49,7 +49,7 @@ app.get('/', function (req, res) {
     res.render('index', {
         title: 'Hello from render',
         nav: [{
-            Link: '/PatientList',
+            Link: '/patientList',
             Text: 'patientList'
         }, {
             Link: '/patient',

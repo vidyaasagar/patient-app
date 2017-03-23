@@ -18,7 +18,7 @@ var patientController = function (nav) {
             collection.find({}).toArray(
                 function (err, results) {
                     res.render('patientListView', {
-                        title: 'PatientList',
+                        title: 'patientList',
                         nav: nav,
                         users: results
                     });
